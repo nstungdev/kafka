@@ -1,0 +1,5 @@
+# topic list
+kafka-topics --bootstrap-server :9092 --list
+
+# create topic
+kafka-topics --bootstrap-server :9092 --topic test_person --create --partitions 3 --replication-factor 1
